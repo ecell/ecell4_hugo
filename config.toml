@@ -1,0 +1,14 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "E-Cell4 GitHub Pages"
+theme = "hugo-classic"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+
+[params]
+    description = "A multi-algorithm, multi-timescale, multi-spatial-representation biochemical simulation environment."
+    footer = "Open-Source | [Github](https://github.com/ecell/ecell4) | [Read the Docs](http://ecell4.readthedocs.io/)"
+    custom_css = ["css/theme-override.css"]
+    
