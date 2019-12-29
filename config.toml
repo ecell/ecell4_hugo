@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://www.e-cell.org/ecell4_hugo/"
 languageCode = "en-us"
 title = "E-Cell4 GitHub Pages"
 theme = "hugo-classic"
