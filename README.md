@@ -12,4 +12,4 @@
 ## Deploygin this hugo site
 
 1. Run `hugo -D` in your terminal
-2. Run `git commit -m "Some message" -a && git push"
+2. Run `git commit -m "Some message" -a && git push"`
