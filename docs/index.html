@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.61.0" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A multi-algorithm, multi-timescale, multi-spatial-representation biochemical simulation environment.">
+    <title>Home | E-Cell4 GitHub Pages</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    <header>
+
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left current">
+        <a href="/">~/e-cell4 github pages</a>
+      </li>
+      
+
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+
+<div class="content-wrapper">
+
+
+  <p><img src="https://github.com/ecell/ecell4_docs/raw/master/ecell-logo-with-title.png" alt=""></p>
+<h1 id="e-cell-system-version-4">E-Cell System version 4</h1>
+<p>A multi-algorithm, multi-timescale, multi-spatial-representation biochemical simulation environment</p>
+<h2 id="installationhttpsgithubcomecellecell4installation"><a href="https://github.com/ecell/ecell4#installation">Installation</a></h2>
+<h2 id="run-without-installinghttpsgithubcomecellecell4-docs"><a href="https://github.com/ecell/ecell4_docs">Run without installing</a></h2>
+<h2 id="documentationhttpecell4readthedocsioenlatest"><a href="http://ecell4.readthedocs.io/en/latest/">Documentation</a></h2>
+<h2 id="hello-e-cell4">Hello E-Cell4</h2>
+<p>E-Cell System is a software platform for modeling, simulation and analysis of complex, heterogeneous and multi-scale systems like the cell.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> ecell4 <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+
+<span style="color:#66d9ef">with</span> reaction_rules():
+    A <span style="color:#f92672">+</span> B <span style="color:#f92672">==</span> C <span style="color:#f92672">|</span> (<span style="color:#ae81ff">0.01</span>, <span style="color:#ae81ff">0.3</span>)
+
+run_simulation(<span style="color:#ae81ff">10</span>, {<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">A</span><span style="color:#e6db74">&#39;</span>: <span style="color:#ae81ff">60</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">B</span><span style="color:#e6db74">&#39;</span>: <span style="color:#ae81ff">60</span>}, solver<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">gillespie</span><span style="color:#e6db74">&#39;</span>)
+</code></pre></div><p><img src="http://www.e-cell.org/ecell4/images/gillespie.png" alt=""></p>
+<h2 id="features">Features</h2>
+<h3 id="single-particle-simulations">Single particle simulations</h3>
+<p><a href="http://gfrd.org/">The enhanced Green's Function Reaction Dynamics (eGFRD) method</a>, <a href="http://spatiocyte.org/">Spatiocyte</a>, and the Reaction Brownian Dynamics (RBD) method.</p>
+<h3 id="multi-algorithm-support">Multi-algorithm support</h3>
+<p>FILLME</p>
+<h3 id="rule-based-modeling">Rule-based modeling</h3>
+<p>FILLME</p>
+<h3 id="python-programmable">Python programmable</h3>
+<p>FILLME</p>
+<h3 id="interactive-visualizations-on-jupyter-notebook">Interactive visualizations on Jupyter Notebook</h3>
+<p>FILLME</p>
+<h3 id="bioinformatics-integration">Bioinformatics integration</h3>
+<p>Garuda gadget, data source, etc.</p>
+<h2 id="examples">Examples</h2>
+<p><a href="https://nbviewer.jupyter.org/github/ecell/ecell4-docs/blob/master/en/examples/example2.ipynb"><img src="http://www.e-cell.org/ecell4/images/drosophila.png" alt=""></a>
+<a href="https://nbviewer.jupyter.org/github/ecell/ecell4-docs/blob/master/en/examples/example9.ipynb"><img src="http://www.e-cell.org/ecell4/images/minde.gif" alt=""></a>
+<a href="https://nbviewer.jupyter.org/github/ecell/ecell4-docs/blob/master/en/examples/example1.ipynb"><img src="http://www.e-cell.org/ecell4/images/attractors.png" alt=""></a></p>
+<p>For more tutorials and examples, see <a href="http://ecell4.readthedocs.io/">http://ecell4.readthedocs.io/</a>.</p>
+<h2 id="license">License</h2>
+<p>This project is licensed under the terms of the GNU General Public License v3. See <a href="https://github.com/ecell/ecell4_base/blob/master/LICENSE">LICENSE</a>.</p>
+<hr>
+
+
+  <ul>
+     
+     
+     
+   </ul>
+</div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      Open-Source | <a href="https://github.com/ecell/ecell4">Github</a> | <a href="http://ecell4.readthedocs.io/">Read the Docs</a>
+      
+    </footer>
+  </body>
+</html>
+
