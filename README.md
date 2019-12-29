@@ -1,8 +1,9 @@
 # ecell4_hugo
 
-## How to create this hugo site
+## How to update this hugo site
 
 1. Install hugo
+2. Edit `content/_index.md`
 2. Run `git clone git://github.com/ecell/ecell4_hugo` in your terminal
 3. Run `cd ecell4_hugo` in your terminal
 4. Run `git submodule update --init --recursive` in your terminal
