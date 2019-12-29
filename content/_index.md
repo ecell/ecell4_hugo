@@ -8,9 +8,9 @@ title: Home
 
 A multi-algorithm, multi-timescale, multi-spatial-representation biochemical simulation environment
 
-[Installation](https://github.com/ecell/ecell4#installation)
-[Run without installing](https://github.com/ecell/ecell4_docs)
-[Documentation](http://ecell4.readthedocs.io/en/latest/)
+## [Installation](https://github.com/ecell/ecell4#installation)
+## [Run without installing](https://github.com/ecell/ecell4_docs)
+## [Documentation](http://ecell4.readthedocs.io/en/latest/)
 
 ## Hello E-Cell4
 
@@ -49,9 +49,9 @@ Garuda gadget, data source, etc.
 
 ## Examples
 
-[![](http://www.e-cell.org/ecell4/images/drosophila.png)](https://github.com/ecell/ecell4-notebooks/blob/master/Examples/Drosophila%20Circadian%20Clock.ipynb)
-[![](http://www.e-cell.org/ecell4/images/minde.gif)](https://github.com/ecell/ecell4-notebooks/blob/master/Examples/MinDE%20System%20with%20Spatiocyte%20Simulator.ipynb)
-[![](http://www.e-cell.org/ecell4/images/attractors.png)](https://github.com/ecell/ecell4-notebooks/blob/master/Examples/Attractors.ipynb)
+[![](http://www.e-cell.org/ecell4/images/drosophila.png)](https://nbviewer.jupyter.org/github/ecell/ecell4-docs/blob/master/en/examples/example2.ipynb)
+[![](http://www.e-cell.org/ecell4/images/minde.gif)](https://nbviewer.jupyter.org/github/ecell/ecell4-docs/blob/master/en/examples/example9.ipynb)
+[![](http://www.e-cell.org/ecell4/images/attractors.png)](https://nbviewer.jupyter.org/github/ecell/ecell4-docs/blob/master/en/examples/example1.ipynb)
 
 For more tutorials and examples, see http://ecell4.readthedocs.io/.
 
