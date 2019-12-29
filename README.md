@@ -9,7 +9,7 @@
 5. Run `hugo server -D` in your terminal
 6. Opne `localhost:1313` with your web browser
 
-## Deploygin this hugo site
+## Deploying this hugo site
 
 1. Run `hugo -D` in your terminal
 2. Run `git commit -m "Some message" -a && git push"`
