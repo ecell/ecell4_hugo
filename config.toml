@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "E-Cell4 GitHub Pages"
 theme = "hugo-classic"
 publishDir = "docs"
+canonifyurls = true
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 enableEmoji = true
